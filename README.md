@@ -6,14 +6,25 @@ The project was developed as part of the "Fundamentals of Data Science" course d
 
 ## 🖥️ Steps
 
-1. **Clone the repository**:
+1. Clone the repository
 
-2. **Install dependencies**:
+2. Install dependencies
 
-3. **Download the 11k Hands dataset**:
+3. Download the 11k Hands dataset
    - [Dataset Link](https://sites.google.com/view/11khands)
 
-4. **Run the training script**:
+4. In the main file, set the necessary values for execution:
+     - num_exp: Number of epochs
+     - image_path: Path to the folder containing the images of the 11kHands dataset
+     - cav_path: Path to the file containing the metadata of the 11kHands dataset images
+     - num_train: Number of images to use for the training phase
+     - num_test: Number of images to use for the testing phase
+
+5. Run the main script
+
+
+## 🧾📈 More details and Performance evaluation
+For more details on the implementation and its performance, you can refer to the paper [HandsGenderRecognition](https://github.com/patriziorenelli/HandsGenderRecognition/blob/main/HandsGenderRecognition.pdf)
 
 # 🧑‍💻 Collaborators
 
